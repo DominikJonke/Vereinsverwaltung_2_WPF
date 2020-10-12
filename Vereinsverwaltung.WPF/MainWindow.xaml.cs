@@ -15,12 +15,14 @@ using System.Windows.Shapes;
 using Vereinsverwaltung.Model;
 using Vereinsverwaltung.Wpf.Windows;
 
+using MahApps.Metro.Controls;
+
 namespace Vereinsverwaltung.WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         private List<Member> _member;
         public MainWindow()

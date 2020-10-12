@@ -11,12 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Vereinsverwaltung.Model;
 
+using MahApps.Metro.Controls;
+
 namespace Vereinsverwaltung.Wpf.Windows
 {
     /// <summary>
     /// Interaction logic for AddMember.xaml
     /// </summary>
-    public partial class AddMember : Window
+    public partial class AddMember : MetroWindow
     {
         public AddMember()
         {

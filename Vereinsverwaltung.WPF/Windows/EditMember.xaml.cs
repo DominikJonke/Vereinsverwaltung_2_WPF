@@ -12,13 +12,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 using Vereinsverwaltung.Model;
+using MahApps.Metro.Controls;
 
 namespace Vereinsverwaltung.Wpf.Windows
 {
     /// <summary>
     /// Interaction logic for EditMember.xaml
     /// </summary>
-    public partial class EditMember : Window
+    public partial class EditMember : MetroWindow
     {
         Member _editMember;
         readonly Member _member;
